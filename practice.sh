@@ -10,4 +10,6 @@ sum=$(($numOne + $numTwo))
 echo "The sum is : $sum"
 let prod=numOne*numTwo
 echo "The product is: $prod"
+
+echo "FileName: $0"
 grep $1 $2
